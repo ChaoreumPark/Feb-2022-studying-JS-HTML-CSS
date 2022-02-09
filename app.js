@@ -1,2 +1,8 @@
-alert("hi");
-//하하
+const a = 5;
+const b = 2;
+const myName = "oreumi";
+
+console.log(a + b);
+console.log(a * b);
+console.log(a / b);
+console.log("hello " + myName);
