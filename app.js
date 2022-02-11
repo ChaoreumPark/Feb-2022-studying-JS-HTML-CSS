@@ -42,24 +42,53 @@
 // player[0]=blabluabluabla
 // const player = ["oreumi", 12131, true, "little"];
 
-const player = {
-  name: "oreumi",
-  points: 123,
-  handsome: true,
-  fat: true,
-};
-// const = object
+// const player = {
+//   name: "oreumi",
+//   points: 123,
+//   handsome: true,
+//   fat: true,
+// };
+// // const = object
 
-console.log(player);
-console.log(player.name);
-// = console.log(player["name"]);
+// console.log(player);
+// console.log(player.name);
+// // = console.log(player["name"]);
 
-player.fat = false;
-// player = false -> In this case, PLAYER is a boolean const -> error
+// player.fat = false;
+// // player = false -> In this case, PLAYER is a boolean const -> error
 
-player.lastName = "potato";
-// If you want, you can do to add at anytime.
-console.log(player);
+// player.lastName = "potato";
+// // If you want, you can do to add at anytime.
+// console.log(player);
 
-player.points = player.points + 15;
-console.log(player.points);
+// player.points = player.points + 15;
+// console.log(player.points);
+// // 27m/7h 30m
+// function sayHello(nameOfPerson, age) {
+//   console.log("Hello my name is " + nameOfPerson + ", and I am ");
+// }
+
+// sayHello("oreumi", 21);
+// sayHello("Akine", 19);
+// function plus(firstNumber, SecondNumber) {
+//   console.log(firstNumber, SecondNumber);
+// }
+
+// plus(8, 60);
+
+// function divide(a, b) {
+//   console.log(a / b);
+// }
+// plus(60, 5);
+// divide(123, 124);
+// function sayHello() {}
+
+// const player = {
+//   name: "oreumi",
+//   sayHello: function (otherPersonsName) {
+//     console.log("hello! " + otherPersonsName + ", Nice to meet you");
+//   },
+// };
+
+// player.sayHello("Akine");
+// // 48m 30s/7h 30m
