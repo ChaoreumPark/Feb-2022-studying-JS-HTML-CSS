@@ -17,6 +17,49 @@
 // console.log("your new name is " + myName);
 
 // Boolean //true or False
-const amIFat = null; //null means "NOTHING in there". exist has a value, but the value is "NOTHING"
-let something; // exist doesn't have any value.
-console.log(something, amIFat);
+// const amIFat = null; //null means "NOTHING in there". exist has a value, but the value is "NOTHING"
+// let something; // exist doesn't have any value.
+// console.log(something, amIFat);
+
+// array(배열)
+
+// string->array
+// const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+
+// Get Item from Array
+// console.log(daysOfWeek);
+
+// Add one more day to the array
+// daysOfWeek.push("sun");
+
+// console.log(daysOfWeek);
+
+// const playerName = "oreumi";
+// const playerPoints = 12312;
+// const playerHandsome = true;
+// const playerFat = "little";
+
+// player[0]=blabluabluabla
+// const player = ["oreumi", 12131, true, "little"];
+
+const player = {
+  name: "oreumi",
+  points: 123,
+  handsome: true,
+  fat: true,
+};
+// const = object
+
+console.log(player);
+console.log(player.name);
+// = console.log(player["name"]);
+
+player.fat = false;
+// player = false -> In this case, PLAYER is a boolean const -> error
+
+player.lastName = "potato";
+// If you want, you can do to add at anytime.
+console.log(player);
+
+player.points = player.points + 15;
+console.log(player.points);
