@@ -91,4 +91,26 @@
 // };
 
 // player.sayHello("Akine");
-// // 48m 30s/7h 30m
+// // 1h 13m 20s/7h 30m
+
+const calculator = {
+  add: function (a, b) {
+    console.log(a + b);
+  },
+  minus: function (a, b) {
+    console.log(a - b);
+  },
+  div: function (a, b) {
+    console.log(a / b);
+  },
+  powerOf: function (a, b) {
+    console.log(a ** b);
+  },
+};
+
+calculator.add(2, 5);
+calculator.minus(3, 6);
+calculator.div(4, 2);
+calculator.powerOf(2, 5);
+// a+b, a-b, a/b, a**b
+// homework
