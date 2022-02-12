@@ -93,24 +93,55 @@
 // player.sayHello("Akine");
 // // 1h 13m 20s/7h 30m
 
+// const calculator = {
+//   add: function (a, b) {
+//     console.log(a + b);
+//   },
+//   minus: function (a, b) {
+//     console.log(a - b);
+//   },
+//   div: function (a, b) {
+//     console.log(a / b);
+//   },
+//   powerOf: function (a, b) {
+//     console.log(a ** b);
+//   },
+// };
+
+// calculator.add(2, 5);
+// calculator.minus(3, 6);
+// calculator.div(4, 2);
+// calculator.powerOf(2, 5);
+// // a+b, a-b, a/b, a**b
+// // homework
+
 const calculator = {
   add: function (a, b) {
-    console.log(a + b);
+    return a + b;
   },
   minus: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   div: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   powerOf: function (a, b) {
-    console.log(a ** b);
+    return a ** b;
   },
 };
 
-calculator.add(2, 5);
-calculator.minus(3, 6);
-calculator.div(4, 2);
-calculator.powerOf(2, 5);
-// a+b, a-b, a/b, a**b
-// homework
+const plusResult = calculator.add(2, 5);
+const minusResult = calculator.minus(plusResult, 6);
+const divideResult = calculator.div(4, minusResult);
+const powerOfResult = calculator.powerOf(divideResult, plusResult);
+
+// const age = 21;
+// function calculateKRAge(ageOfForeigner) {
+//   return ageOfForeigner + 2;
+// }
+
+// const krAge = calculateKRAge(age);
+
+// console.log(krAge);
+
+// // // // // // 1h 29m /7h 30m // // // // // //
