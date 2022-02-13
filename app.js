@@ -115,25 +115,27 @@
 // // a+b, a-b, a/b, a**b
 // // homework
 
-const calculator = {
-  add: function (a, b) {
-    return a + b;
-  },
-  minus: function (a, b) {
-    return a - b;
-  },
-  div: function (a, b) {
-    return a / b;
-  },
-  powerOf: function (a, b) {
-    return a ** b;
-  },
-};
+/////////////////////////////////////////////////////////////////////////////
 
-const plusResult = calculator.add(2, 5);
-const minusResult = calculator.minus(plusResult, 6);
-const divideResult = calculator.div(4, minusResult);
-const powerOfResult = calculator.powerOf(divideResult, plusResult);
+// const calculator = {
+//   add: function (a, b) {
+//     return a + b;
+//   },
+//   minus: function (a, b) {
+//     return a - b;
+//   },
+//   div: function (a, b) {
+//     return a / b;
+//   },
+//   powerOf: function (a, b) {
+//     return a ** b;
+//   },
+// };
+
+// const plusResult = calculator.add(2, 5);
+// const minusResult = calculator.minus(plusResult, 6);
+// const divideResult = calculator.div(4, minusResult);
+// const powerOfResult = calculator.powerOf(divideResult, plusResult);
 
 // const age = 21;
 // function calculateKRAge(ageOfForeigner) {
@@ -144,4 +146,62 @@ const powerOfResult = calculator.powerOf(divideResult, plusResult);
 
 // console.log(krAge);
 
+/////////////////////////////////////////////////////////////////////////////
+
 // // // // // // 1h 29m /7h 30m // // // // // //
+
+// 위의 내용에서 return -> console.log() 로 작성시 console 에서 'plusResult'를 했을때 호출이 안됨.
+
+// const age = parseInt(prompt("How old are you?"));
+// don't use anymore "prompt", the reason why can't use css
+
+// console.log(isNaN(age));
+// NaN = Not a Number, age is a Number, so the result is false
+// boolean is "true" or "false"
+// if (isNaN(age) || age < 0) {
+//   console.log("Please write a REAL POSITIVE Number.");
+//   /// condition === true
+// } else if (age < 18) {
+//   console.log("You are too young.");
+// } else if (age >= 18 && age <= 50) {
+//   console.log("You can drink.");
+// } else if (age > 50 && age <= 80) {
+//   console.log("You should exercise first.");
+// } else if (age > 80) {
+//   console.log("Do something whatever you want.");
+// } // condition === false
+//   if (age > 20) {
+//     console.log("What do you want for drink?");
+//   } else {
+//     console.log("How about grow up more babe? :)");
+//   }
+// }
+// !== "is this not something?", === "is this something?"
+// // // // // // 2h 17m 20s /7h 30m // // // // // //
+
+// document.title = "Hi JS";
+
+// const title = document.getElementById("title");
+
+// title.innerText = "Got you";
+
+// console.log(title.id);
+// console.log(title.className);
+
+// const hellos = document.getElementsByClassName("Hello");
+
+// console.log(hellos);
+
+// const title = document.querySelector(".Hello h1"); // #Hello h1 --------
+// // const title = document.getElementsById("Hello");
+// title.innerText = "Heelloo";
+// // both are same, the difference is query use CSS selector (and don't know it's really exist),
+// // getElementsById is I already know the Id is really exist
+// //          Can use like ("div h1") (".Hello h1"); is CSS selector.
+// // querySelector does searching element using CSS notation. ONLY FIRST ONE.
+// // If you want to check all of things, Use querySelectorAll
+// // document.getElementsByTagName()
+// // tag means anchor, div, section, button
+// console.log(title);
+
+// // // // // // 2h 48m 40s /7h 30m // // // // // //
