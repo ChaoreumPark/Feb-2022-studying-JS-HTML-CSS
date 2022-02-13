@@ -205,3 +205,17 @@
 // console.log(title);
 
 // // // // // // 2h 48m 40s /7h 30m // // // // // //
+
+const title = document.querySelector("div.Hello:first-child h1");
+function handleTitleClick() {
+  title.style.color = "blue";
+  console.log("title was clicked!");
+}
+// console.dir(title);
+// if you want to look inside, use "console.dir"
+
+title.style.color = "red";
+
+title.addEventListener("click", handleTitleClick);
+
+// // // // // // 3h 1m 18s /7h 30m // // // // // //
