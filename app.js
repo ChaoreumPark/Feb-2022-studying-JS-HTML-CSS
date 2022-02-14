@@ -206,16 +206,84 @@
 
 // // // // // // 2h 48m 40s /7h 30m // // // // // //
 
-const title = document.querySelector("div.Hello:first-child h1");
-function handleTitleClick() {
-  title.style.color = "blue";
-  console.log("title was clicked!");
-}
+// const title = document.querySelector("div.Hello:first-child h1");
+
+// function handleTitleClick() {
+//   title.style.color = "blue";
+// }
 // console.dir(title);
-// if you want to look inside, use "console.dir"
+// // if you want to look inside, use "console.dir"
+// // property = 글자 앞에 "on"이라고 적혀있으면 listener가 작동 가능함
+// // on--- 중 ---만 사용
+// title.style.color = "red";
 
-title.style.color = "red";
+// function handleMouseEnter() {
+//   title.innerText = "Mouse is here!";
+// }
 
-title.addEventListener("click", handleTitleClick);
+// function handleMouseLeave() {
+//   title.innerText = "Mouse is gone!";
+// }
 
-// // // // // // 3h 1m 18s /7h 30m // // // // // //
+// function handleWindowResize() {
+//   document.body.style.backgroundColor = "pink";
+// }
+
+// function handleWindowCopy() {
+//   alert("copier!");
+// }
+
+// function handleWindowOffline() {
+//   alert("SOS no WiFi");
+// }
+
+// function handleWindowOnline() {
+//   alert("ALL GOOD");
+// }
+
+// title.addEventListener("click", handleTitleClick);
+// title.addEventListener("mouseenter", handleMouseEnter);
+// title.addEventListener("mouseleave", handleMouseLeave);
+
+// // // // // // // 3h 1m 18s /7h 30m // // // // // //
+
+// window.addEventListener("resize", handleWindowResize);
+// window.addEventListener("copy", handleWindowCopy);
+// window.addEventListener("offline", handleWindowOffline);
+// window.addEventListener("online", handleWindowOnline);
+
+// const h1 = document.querySelector("div.Hello:first-child h1");
+
+// function handleTitleClick() {
+//   h1.classList.toggle("clicked");
+// }
+// // toggle: find "clicked" in classList (in h1), if it already
+// //         exist, switch clicked like a lock screen and unlock
+// //         screen if it doesn't exist, add "clicked"
+
+// h1.addEventListener("click", handleTitleClick);
+
+///////////////////////////////////////////////
+
+//   if (h1.classList.contains(clickedClass)) {
+//     h1.classList.remove(clickedClass);
+//   } else {
+//     h1.classList.add(clickedClass);
+//   }
+// }
+
+///////////////////////////////////////////////
+// {
+//   const currentColor = h1.style.color;
+//   let newColor;
+//   if (currentColor === "blue") {
+//     newColor = "tomato";
+//   } else {
+//     newColor = "blue";
+//   }
+//   h1.style.color = newColor;
+// }
+
+// h1.addEventListener("click", handleTitleClick);
+
+// // // // // // // 3h 44m 18s /7h 30m // // // // // //
